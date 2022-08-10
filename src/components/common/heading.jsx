@@ -1,5 +1,5 @@
-const Heading = ({ heading }) => {
-  return <h1 className="font-main laptop:text-3xl font-bold">Heading</h1>;
+const Heading = ({ headingText }) => {
+  return <h1 className="laptop:text-2xl font-bold">{headingText}</h1>;
 };
 
 export default Heading;
