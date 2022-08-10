@@ -3,13 +3,13 @@ import StepTwo from "pages/stepTwo";
 import StepThree from "pages/stepThree";
 import StepFour from "pages/stepFour";
 import { Route, Routes } from "react-router-dom";
-import Header from "components/header";
+import Header from "components/navHeader";
 
 function App() {
   return (
     <div className="App w-screen h-screen flex flex-col items-center justify-center font-main">
       <Header />
-      <div className="w-4/12">
+      <div className="w-5/6 laptop:w-4/12">
       <Routes>
         <Route path="/" element={<StepOne />}></Route>
         <Route path="steptwo" element={<StepTwo />}></Route>

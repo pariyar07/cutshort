@@ -17,7 +17,7 @@ const StepThreeChoices = () => {
   ];
 
   return (
-    <div className="flex gap-4 w-2/3 laptop:mt-8">
+    <div className="flex gap-4 laptop:w-2/3 laptop:mt-8">
       {accountTypeOptions.map((element) => {
         return (
           <SingleChoice

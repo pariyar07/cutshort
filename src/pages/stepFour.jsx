@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const StepFour = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center laptop:mt-12">
-        <span className="bg-purple rounded-full p-6 mb-8">
+      <div className="flex flex-col items-center mt-6 laptop:mt-12">
+        <span className="bg-purple rounded-full p-6 mb-4 laptop:mb-8">
           <TiTick className="text-white text-xl" />
         </span>
         <Heading headingText="Congratulations, User!" />

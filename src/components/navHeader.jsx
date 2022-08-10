@@ -1,13 +1,13 @@
 import Logo from "components/common/logo";
 import StepNavigation from "components/stepNavigation";
 
-const Header = () => {
+const NavHeader = () => {
   return (
-    <header className="w-1/4">
+    <header className="w-full laptop:w-1/4">
       <Logo />
       <StepNavigation />
     </header>
   );
 };
 
-export default Header;
+export default NavHeader;
